@@ -1,0 +1,149 @@
+/*.................................. Navbar........................... */
+.navbar-brand > img {
+  max-width: 2.8125rem;
+}
+span.text-uppercase {
+  font-size: 0.5625rem;
+  margin-top: 0.3125rem;
+}
+@media (max-width: 426px) {
+  .navbar-brand > img {
+    max-width: 1.875rem;
+  }
+  span.text-uppercase {
+    font-size: .375rem;
+    margin-top: 0.3125rem;
+  }
+}
+.bg-color-red {
+  background-color: #ff1300;
+}
+.bg-color-yellow {
+  background-color: rgb(252, 211, 49);
+}
+.bg-color-darkgray{
+  background-color: #302f38;
+}
+.offcanvas.offcanvas-end {
+  border: none;
+  width: 100%;
+}
+.fa-xmark {
+  border: none;
+}
+.offcanvas.show,
+.fa-xmark {
+  background-color: #302f38;
+}
+.offcanvas.showing {
+  background-color: #302f38;
+}
+.offcanvas.showing ul li a {
+  color: rgb(255, 255, 255);
+}
+.offcanvas.show ul li a {
+  color: rgb(255, 255, 255);
+}
+.offcanvas ul li a {
+  color: rgb(0, 0, 0);
+}
+button.navbar-toggler {
+  --bs-navbar-toggler-border-color: none;
+  --bs-navbar-toggler-focus-width: none;
+}
+@media (max-width: 426px) {
+  .navbar ul > li:last-child {
+   font-size: 0.75rem;
+ }
+}
+.line-1,
+.line-2,
+.line-3 {
+  position: absolute;
+  display: block;
+  height: .25rem;
+  background-color: #302f38 !important;
+  right: 6%;
+  border-radius: .125rem;
+}
+.line-1 {
+  top: 30%;
+  width: 8%;
+}
+.line-2 {
+  top: 43%;
+  width: 6%;
+}
+.line-3 {
+  top: 55%;
+  width: 4%;
+}
+.fa-bars {
+  color: #302f38;
+}
+/*.................................. Banner..................................... */
+.bg-image {
+  background-image: url(../../Design/idea-brain_5NLKT00MVB.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: hsla(0, 0%, 3%, 0.5);
+  background-blend-mode: saturation;
+  height: 75vh;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.4375rem;
+}
+/*.................................. Filters..................................... */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #filter-marketing, #filter-coding, #filter-design{
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  #filter-marketing, #filter-coding{
+    border-bottom: solid white 1px;
+  }
+}
+@media (min-width: 768px) {
+  #filter-marketing, #filter-coding{
+    border-right: solid white 1px;
+  }
+}
+i.fa-solid{
+  color: #302f38;
+}
+/*.................................. Cards..................................... */
+.btn-danger{
+  background-color: #ff1300;
+}
+.card:hover{
+  transform: scale(1.03);
+  transition: .2s ease-in-out;
+}
+/*.................................. Employ..................................... */
+.shadow-bottom{
+  box-shadow: 0px 0px 20px rgba(123, 123, 123, 0.175);
+}
+::placeholder{
+  font-style: italic;
+}
+.custom-dropdown-menu {
+  width: 100%;
+}
+@media (max-width:768px){
+  .dropdown{
+    margin-bottom: 180px;
+  }
+}
+@media (min-width:1024px){
+  .padding-main{
+    margin-bottom: 100px;
+  }
+}
+@media (min-width:1024px){
+  html{
+    height: 100%;
+  }
+}
